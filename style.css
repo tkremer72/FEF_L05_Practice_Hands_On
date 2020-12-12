@@ -1,0 +1,47 @@
+body{
+      background-color: lightgrey;
+}
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.header-container {
+      background-color: lightslategrey;
+      color: white;
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+}
+.header {
+      width: 85%;
+      font-size: large;
+      display: flex;
+      justify-content: space-around;
+}
+.about {
+      font-size: 2em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+}
+.images-grid-container {
+      background-color: lightgrey;
+      display: flex;
+      justify-content: center;
+}
+.photos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 5px;
+      max-width: 980px;
+      align-items: center;
+    }
+    
+    .photos img {
+      display: flex;
+      width: 20%;
+      justify-content: space-around;
+      padding: 10px;
+}
